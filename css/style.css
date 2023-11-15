@@ -32,6 +32,13 @@ h2 {
   margin-bottom: 15px;
   padding-bottom: 20px;
 }
+
+@media (max-width: 340px) {
+  .menuPresentationTitle {
+    font-size: 35px;
+  }
+}
+
 h2::after {
   position: absolute;
   content: '';
@@ -336,6 +343,7 @@ header .intro-text img {
   margin: 20px 0;
   text-align: center;
 }
+
 #restaurant-menu .menu-item {
   margin: 45px 0;
   font-size: 18px;
@@ -506,7 +514,6 @@ label {
   color: var(--dark-green);
   border: 2px solid var(--dark-green);
   display: inline-block;
-  margin: 0 auto;
   font-size: 20px;
   font-weight: bold;
   padding: 15px 25px;
@@ -514,6 +521,8 @@ label {
   border-radius: 5px;
   background-color: var(--green);
   text-align: center;
+  align-self: center;
+  margin: 0 20px;
 }
 
 .seeMenu:hover {
